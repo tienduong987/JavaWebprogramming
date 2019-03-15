@@ -9,10 +9,6 @@ package newpackage;
  *
  * @author Administrator
  */
-public class MyDate {
-   private int date;
-   private int month;
-   private int year;
-}
-public MyDate()
-public 
+ public class Student extends Person{
+ }
+
