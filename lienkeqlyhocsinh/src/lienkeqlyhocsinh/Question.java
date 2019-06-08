@@ -91,13 +91,12 @@ public class Question {
     public String toString() {
         StringBuilder builder = new StringBuilder();
         builder.append(this.content);
-        builder.append("\n");
-        builder.append("A." +this.answerA);
-        builder.append("B." +this.answerB);
-        builder.append("C." +this.answerC);
-        builder.append("D." +this.answerD);
+        builder.append("\nA. " + this.answerA);
+        builder.append("\nB. " + this.answerB);
+        builder.append("\nC. " + this.answerC);
+        builder.append("\nD. " + this.answerD);
         return builder.toString();
     }
     
+    
 }
-

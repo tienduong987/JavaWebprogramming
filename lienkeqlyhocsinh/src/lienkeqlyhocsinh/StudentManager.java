@@ -31,4 +31,12 @@ public class StudentManager {
         ResultSet rs = pstmt.executeQuery();
         return rs.next();
     }
+
+    void addAnswer(Student s, Question q, String answer) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void printResult() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
