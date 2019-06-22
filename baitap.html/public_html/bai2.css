@@ -1,0 +1,9 @@
+.container{
+    background: #ffe6b3;
+}
+.tho{
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+}
