@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style type="text/css">
+        #content{
+            background: white;
+            margin: auto;
+            border: 1px solid black;
+            width: 174px;
+        }
+        #bangtinh{
+            
+        }
+        button{
+            width: 40px;
+            text-align: center;
+        }
+        #left{
+            float:left;
+        }
+        .mau{
+         margin-left: 3px;
+         height: 84px;
+         background: blue;
+        }
+        .xoa{
+            background:red;
+        }
+     </style>
+    <body>
+        <div id="content">
+                <input id="bangtinh"><p></p>
+                <button >+</button>
+                <button >-</button>
+                <button >*</button>
+                <button >/</button></br>
+                <div id="left">
+                    <button onclick="Result.value += this.value" >7</button>
+                    <button >8</button>
+                    <button >9</button></br>
+                    <button >4</button>
+                    <button >5</button>
+                    <button >6</button></br>
+                    <button >1</button>
+                    <button >2</button>
+                    <button >3</button></br>
+                    <button >0</button>
+                    <button >.</button>
+                    <button class="xoa">AC</button></br>
+                </div>
+                <div id = "right" >
+                    <button class="mau"> = </button>
+                </div>
+        </div>
+    </body>
+</html>
