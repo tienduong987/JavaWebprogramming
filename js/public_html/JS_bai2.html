@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style type="text/css">
+        lable{
+            float: left;
+            width: 100px
+        }
+        .error{
+            color:red;
+        }
+        
+    </style>
+    <script src="mainBai2.js"></script>
+    <body>
+        <form action=""method="post">
+            <lable>Name: </lable>
+            <input type="text" id="name" value=""><p></p>
+            <span id="errorname" class="error"></span>
+            <lable>Email: </lable>
+            <input type="text" id="gmail" value=""><p></p>
+            <span id="erroremail" class="error"></span>
+            <lable>Website: </lable>
+            <input type="text" id="website" value=""><p></p>
+            <span id="errorwebsite" class="error"></span>
+            <lable>Message:  </lable>
+            <textarea id="message"></textarea><p></p>
+            <span id="errormesage" class="error"></span>
+            <button onclick=" event.preventDefault(); ClickHere()">Submit</button>
+        </form>
+          
+    </body>
+</html>

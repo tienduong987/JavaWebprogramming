@@ -26,7 +26,8 @@ body,p {
 #Header .span .img{
     width: 140px;
     height: 140px;
-    margin: 5px 5px 5px 5px;
+    margin: 10px;
+    padding: 10px;
 }
 #Header h1 {
     float: left;
