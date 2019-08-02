@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style type="text/css">
+        #content{
+            width: 100px;
+        }
+        label{
+            float:left;
+            width: 100px;
+            margin-bottom: 5px;
+        }
+        </style>
+        <script>
+            function OnClick(){
+                if((usename && password &&Fullname && Email && Address) === ""){
+                   document.getElementById('error').innerHTML="Vui long nhap day du thong tin";
+                    
+                }
+            }
+            </script>
+        
+    <body>
+        <form action="login" method="post">
+       <div id="content">
+           <lable>Usename:</lable> <input/><br/>
+           <lable>Password:</lable><input type="password"><br/>
+           <lable>Fullname:</lable><input/><br/>
+           <lable>Email:</lable> <input/><br/>
+           <lable> Address:</lable><textarea></textarea><br/>
+           <span id="error"></span>
+       </div>
+        <input type="submit" value="Register">
+        <button onclick=event.preventDefault();"OnClick">Clear</button>
+        
+       </form>
+    </body>
+</html>

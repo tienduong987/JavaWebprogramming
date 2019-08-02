@@ -17,7 +17,9 @@ public class DBConnector {
 
 
     /**
-     * @param args the command line arguments
+     * @return 
+     * @throws java.lang.ClassNotFoundException
+     * @throws java.sql.SQLException
      */
     public Connection getConnector() throws ClassNotFoundException, SQLException {
             Class.forName("com.mysql.cj.jdbc.Driver");
